@@ -123,6 +123,8 @@ async function load_page(id) {
                     } else {
                         cell.style.color = '#666666';
                     }
+                } else {
+                    cell.style.color = '#666666';
                 }
                 cell.addEventListener("click", char_info);
             } else {
